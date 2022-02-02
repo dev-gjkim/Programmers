@@ -1,5 +1,3 @@
-
-
 const n = 12
 
 
@@ -12,5 +10,3 @@ const solution = (n) => {
     }
     return result + n
 }
-
-console.log(solution(n))

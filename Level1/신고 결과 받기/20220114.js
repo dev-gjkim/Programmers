@@ -19,5 +19,4 @@ const solution = (id_list, report, k) => {
 
     const answer = id_list.map(id => stopUserReporter.filter(user => user === id).length)
     return answer;
-
 }
