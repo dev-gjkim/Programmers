@@ -1,6 +1,6 @@
 const s = ")()(";
 
-
+//stack
 const solution = (s) => {
     const stack = [];
     for (let i = 0; i < s.length; i++) {
@@ -15,4 +15,3 @@ const solution = (s) => {
     }
     return !stack.length;
 }
-console.log(solution(s))
